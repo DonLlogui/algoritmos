@@ -1,10 +1,10 @@
 Algoritmo Calificacion_aprobatoria
     Definir calificacion Como Real
-    Escribir "Ingrese la calificación: "
+    Escribir "Ingrese la calificaciÃ³n: "
     Leer calificacion
 	
     Si calificacion >= 6 Entonces
-        Escribir "¡Felicidades, aprobaste!"
+        Escribir "Â¡Felicidades, aprobaste!"
     Sino
         Escribir "Lo siento, no aprobaste."
     FinSi
