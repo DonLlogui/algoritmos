@@ -1,4 +1,4 @@
-Algoritmo Edad_para_votar
+Algoritmo Edadparavotar
     Definir edad Como Entero
     Escribir "Ingrese su edad: "
     Leer edad
