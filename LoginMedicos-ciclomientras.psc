@@ -6,7 +6,7 @@ Proceso LoginMedicos
     Definir intentos, i, login, token Como Entero
     token = 0
 	
-    // Guardamos los usuarios y contraseñas
+    // Guardamos los usuarios y contraseÃ±as
     usuarios[0] <- "medico1"
     usuarios[1] <- "medico2"
     usuarios[2] <- "medico3"
@@ -20,10 +20,10 @@ Proceso LoginMedicos
 	
     // Bucle para permitir hasta 3 intentos
     Mientras (login <= 3) Hacer
-        Escribir "Señor Medico Ingrese su usuario:"
+        Escribir "SeÃ±or Medico Ingrese su usuario:"
         Leer usuario
 		
-        Escribir "Ingrese su contraseña: "
+        Escribir "Ingrese su contraseÃ±a: "
         Leer contrasena
 		
         // Comparamos con los usuarios guardados
@@ -36,7 +36,7 @@ Proceso LoginMedicos
             FinSi
         FinPara
 		Si (intentos <= 3) Entonces
-			Imprimir "Usuario y contraseña invalido intento #" , intentos , " de 3 Recuerde sobrepasado 3 intentos sera bloqueda la cuenta"
+			Imprimir "Usuario y contraseÃ±a invalido intento #" , intentos , " de 3 Recuerde sobrepasado 3 intentos sera bloqueda la cuenta"
 		Fin Si
 		
         Si (intentos == 3) Entonces
