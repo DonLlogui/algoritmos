@@ -2,12 +2,12 @@
 Algoritmo Adivinar_numero
     Definir numero, secreto Como Entero
     secreto <- 10
-    Escribir "Adivina el número secreto: "
+    Escribir "Adivina el nÃºmero secreto: "
     Leer numero
 	
     Si numero = secreto Entonces
-        Escribir "¡Felicidades! Adivinaste el número."
+        Escribir "Â¡Felicidades! Adivinaste el nÃºmero."
     Sino
-        Escribir "No adivinaste. El número secreto es ", secreto
+        Escribir "No adivinaste. El nÃºmero secreto es ", secreto
     FinSi
 FinAlgoritmo
