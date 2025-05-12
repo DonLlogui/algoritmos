@@ -1,4 +1,4 @@
-Algoritmo Descuento_compra
+Algoritmo Descuentocompra
     Definir monto Como Real
     Escribir "Ingrese el monto de la compra: "
     Leer monto
